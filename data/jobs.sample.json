@@ -1,0 +1,369 @@
+{
+  "_설명": "⚠️ 샘플 데이터입니다. 화면이 어떻게 보이는지 확인하려고 넣은 예시 숫자이고, 실제 통계가 아닙니다. README의 '실제 데이터로 바꾸기'를 따라 교체하세요.",
+  "isSample": true,
+  "updatedAt": "샘플",
+  "sources": [
+    {
+      "name": "고용노동부 고용형태별근로실태조사 (연봉)",
+      "url": "https://www.wage.go.kr"
+    },
+    {
+      "name": "고용노동부 고용행정통계 Open API (직군별 구인인원)",
+      "url": "https://eis.work24.go.kr"
+    },
+    {
+      "name": "고용노동부 직종별사업체노동력조사 (미충원율)",
+      "url": "https://laborstat.moel.go.kr"
+    },
+    {
+      "name": "한국은행 BOK 이슈노트 'AI와 노동시장 변화' (AI 노출지수)",
+      "url": "https://www.bok.or.kr"
+    },
+    {
+      "name": "소상공인시장진흥공단 상가(상권)정보 (상권 확인)",
+      "url": "https://www.data.go.kr/data/15012005/openapi.do"
+    }
+  ],
+  "jobs": [
+    {
+      "id": "sw-dev",
+      "name": "응용SW 개발자",
+      "group": "IT·개발",
+      "keco": "",
+      "employment": 210,
+      "salary": 5600,
+      "shortageRate": 14,
+      "aiExposure": 78
+    },
+    {
+      "id": "data-sci",
+      "name": "데이터 분석가",
+      "group": "IT·개발",
+      "keco": "",
+      "employment": 45,
+      "salary": 5900,
+      "shortageRate": 18,
+      "aiExposure": 82
+    },
+    {
+      "id": "net-eng",
+      "name": "네트워크·보안 엔지니어",
+      "group": "IT·개발",
+      "keco": "",
+      "employment": 60,
+      "salary": 5300,
+      "shortageRate": 16,
+      "aiExposure": 61
+    },
+    {
+      "id": "web-design",
+      "name": "웹·UI 디자이너",
+      "group": "IT·개발",
+      "keco": "",
+      "employment": 70,
+      "salary": 3900,
+      "shortageRate": 9,
+      "aiExposure": 74
+    },
+    {
+      "id": "nurse",
+      "name": "간호사",
+      "group": "의료·보건",
+      "keco": "",
+      "employment": 290,
+      "salary": 4700,
+      "shortageRate": 22,
+      "aiExposure": 35
+    },
+    {
+      "id": "doctor",
+      "name": "의사",
+      "group": "의료·보건",
+      "keco": "",
+      "employment": 110,
+      "salary": 15000,
+      "shortageRate": 25,
+      "aiExposure": 88
+    },
+    {
+      "id": "pharm",
+      "name": "약사",
+      "group": "의료·보건",
+      "keco": "",
+      "employment": 40,
+      "salary": 7200,
+      "shortageRate": 12,
+      "aiExposure": 70
+    },
+    {
+      "id": "caregiver",
+      "name": "요양보호사",
+      "group": "의료·보건",
+      "keco": "",
+      "employment": 520,
+      "salary": 2500,
+      "shortageRate": 27,
+      "aiExposure": 8
+    },
+    {
+      "id": "pt",
+      "name": "물리치료사",
+      "group": "의료·보건",
+      "keco": "",
+      "employment": 50,
+      "salary": 3700,
+      "shortageRate": 11,
+      "aiExposure": 22
+    },
+    {
+      "id": "office",
+      "name": "일반 사무원",
+      "group": "사무·경영",
+      "keco": "",
+      "employment": 1400,
+      "salary": 3600,
+      "shortageRate": 5,
+      "aiExposure": 72
+    },
+    {
+      "id": "accountant",
+      "name": "회계·경리 사무원",
+      "group": "사무·경영",
+      "keco": "",
+      "employment": 380,
+      "salary": 3700,
+      "shortageRate": 6,
+      "aiExposure": 80
+    },
+    {
+      "id": "marketer",
+      "name": "마케팅·광고 기획자",
+      "group": "사무·경영",
+      "keco": "",
+      "employment": 130,
+      "salary": 4600,
+      "shortageRate": 7,
+      "aiExposure": 76
+    },
+    {
+      "id": "cs",
+      "name": "고객상담원",
+      "group": "사무·경영",
+      "keco": "",
+      "employment": 160,
+      "salary": 2800,
+      "shortageRate": 15,
+      "aiExposure": 84
+    },
+    {
+      "id": "hr",
+      "name": "인사·노무 사무원",
+      "group": "사무·경영",
+      "keco": "",
+      "employment": 90,
+      "salary": 4300,
+      "shortageRate": 4,
+      "aiExposure": 69
+    },
+    {
+      "id": "welder",
+      "name": "용접원",
+      "group": "생산·기술",
+      "keco": "",
+      "employment": 120,
+      "salary": 4200,
+      "shortageRate": 24,
+      "aiExposure": 12
+    },
+    {
+      "id": "electrician",
+      "name": "전기공",
+      "group": "생산·기술",
+      "keco": "",
+      "employment": 150,
+      "salary": 4400,
+      "shortageRate": 21,
+      "aiExposure": 15
+    },
+    {
+      "id": "mechanic",
+      "name": "자동차 정비원",
+      "group": "생산·기술",
+      "keco": "",
+      "employment": 110,
+      "salary": 3800,
+      "shortageRate": 19,
+      "aiExposure": 18
+    },
+    {
+      "id": "assembler",
+      "name": "제조 조립원",
+      "group": "생산·기술",
+      "keco": "",
+      "employment": 600,
+      "salary": 3300,
+      "shortageRate": 17,
+      "aiExposure": 28
+    },
+    {
+      "id": "chem-eng",
+      "name": "화학공학 기술자",
+      "group": "생산·기술",
+      "keco": "",
+      "employment": 55,
+      "salary": 6100,
+      "shortageRate": 10,
+      "aiExposure": 86
+    },
+    {
+      "id": "cook",
+      "name": "조리사",
+      "group": "서비스",
+      "keco": "",
+      "employment": 450,
+      "salary": 2900,
+      "shortageRate": 20,
+      "aiExposure": 10
+    },
+    {
+      "id": "barista",
+      "name": "바리스타",
+      "group": "서비스",
+      "keco": "",
+      "employment": 160,
+      "salary": 2400,
+      "shortageRate": 13,
+      "aiExposure": 9
+    },
+    {
+      "id": "hairdresser",
+      "name": "미용사",
+      "group": "서비스",
+      "keco": "",
+      "employment": 180,
+      "salary": 2700,
+      "shortageRate": 14,
+      "aiExposure": 6
+    },
+    {
+      "id": "delivery",
+      "name": "택배·배달원",
+      "group": "서비스",
+      "keco": "",
+      "employment": 330,
+      "salary": 3500,
+      "shortageRate": 18,
+      "aiExposure": 14
+    },
+    {
+      "id": "guard",
+      "name": "경비원",
+      "group": "서비스",
+      "keco": "",
+      "employment": 300,
+      "salary": 2600,
+      "shortageRate": 9,
+      "aiExposure": 5
+    },
+    {
+      "id": "teacher",
+      "name": "중·고등학교 교사",
+      "group": "교육·연구",
+      "keco": "",
+      "employment": 190,
+      "salary": 5500,
+      "shortageRate": 3,
+      "aiExposure": 45
+    },
+    {
+      "id": "tutor",
+      "name": "학원 강사",
+      "group": "교육·연구",
+      "keco": "",
+      "employment": 280,
+      "salary": 3200,
+      "shortageRate": 8,
+      "aiExposure": 58
+    },
+    {
+      "id": "professor",
+      "name": "대학교수",
+      "group": "교육·연구",
+      "keco": "",
+      "employment": 90,
+      "salary": 9000,
+      "shortageRate": 4,
+      "aiExposure": 7
+    },
+    {
+      "id": "researcher",
+      "name": "자연과학 연구원",
+      "group": "교육·연구",
+      "keco": "",
+      "employment": 70,
+      "salary": 5800,
+      "shortageRate": 9,
+      "aiExposure": 66
+    },
+    {
+      "id": "video",
+      "name": "영상 편집자",
+      "group": "예술·미디어",
+      "keco": "",
+      "employment": 40,
+      "salary": 3300,
+      "shortageRate": 10,
+      "aiExposure": 63
+    },
+    {
+      "id": "writer",
+      "name": "작가·카피라이터",
+      "group": "예술·미디어",
+      "keco": "",
+      "employment": 30,
+      "salary": 3400,
+      "shortageRate": 5,
+      "aiExposure": 79
+    },
+    {
+      "id": "translator",
+      "name": "번역가·통역사",
+      "group": "예술·미디어",
+      "keco": "",
+      "employment": 20,
+      "salary": 3600,
+      "shortageRate": 4,
+      "aiExposure": 92
+    },
+    {
+      "id": "construction",
+      "name": "건설 기능공",
+      "group": "건설",
+      "keco": "",
+      "employment": 420,
+      "salary": 4300,
+      "shortageRate": 23,
+      "aiExposure": 7
+    },
+    {
+      "id": "architect",
+      "name": "건축가·건축설계사",
+      "group": "건설",
+      "keco": "",
+      "employment": 50,
+      "salary": 4900,
+      "shortageRate": 8,
+      "aiExposure": 60
+    },
+    {
+      "id": "civil-eng",
+      "name": "토목 기술자",
+      "group": "건설",
+      "keco": "",
+      "employment": 80,
+      "salary": 5100,
+      "shortageRate": 12,
+      "aiExposure": 48
+    }
+  ]
+}

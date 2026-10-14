@@ -1,0 +1,30 @@
+# 매일 아침 고용행정통계 API에서 채용공고(구인) 데이터를 모아요.
+#   - 이미 다 모은 달이면 바로 끝나요 (조회 1~3번만 씀)
+#   - 조회 한도에 걸리면 저장하고 멈췄다가 다음 날 이어서 해요
+#   - 새 파일이 생기면 저장소에 올리고 → Vercel이 사이트를 자동으로 다시 배포해요
+name: 채용공고 데이터 업데이트
+
+on:
+  schedule:
+    - cron: "17 21 * * *" # 매일 한국시간 오전 6시 17분 (UTC 21:17)
+  workflow_dispatch: # GitHub의 Actions 탭에서 손으로도 실행 가능
+
+permissions:
+  contents: write
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - run: npm run update:postings
+      - name: 바뀐 데이터 저장
+        run: |
+          git config user.name "postings-bot"
+          git config user.email "postings-bot@users.noreply.github.com"
+          git add data/postings
+          git diff --cached --quiet || git commit -m "채용공고 데이터 업데이트 $(date +%Y-%m-%d)"
+          git push

@@ -1,0 +1,17 @@
+{
+  "name": "job-map",
+  "version": "1.0.0",
+  "description": "내일의 자리 - 직업별 연봉·채용공고·AI 전망과 동네 상권을 데이터로 비교",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "update:postings": "node scripts/update-postings.mjs"
+  },
+  "dependencies": {
+    "next": "^15.5.27",
+    "react": "^19.3.0",
+    "react-dom": "^19.3.0"
+  },
+  "private": true
+}
