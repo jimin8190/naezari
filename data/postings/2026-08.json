@@ -1,0 +1,936 @@
+{
+  "month": "2026-08",
+  "source": "고용노동부 고용행정통계 Open API (구인·구직 현황)",
+  "fetchedAt": "2026-10-20T00:26:18.517Z",
+  "regions": {
+    "11": "서울특별시",
+    "26": "부산광역시",
+    "27": "대구광역시",
+    "28": "인천광역시",
+    "30": "대전광역시",
+    "31": "울산광역시",
+    "36": "세종특별자치시",
+    "41": "경기도",
+    "43": "충청북도",
+    "44": "충청남도",
+    "47": "경상북도",
+    "48": "경상남도",
+    "50": "제주도",
+    "51": "강원특별자치도 ",
+    "52": "전북특별자치도 "
+  },
+  "groups": {
+    "100000": "연구직 및 공학 기술직",
+    "200000": "교육·법률·사회복지·경찰·소방직 및 군인",
+    "300000": "보건·의료직",
+    "400000": "예술·디자인·방송·스포츠직",
+    "500000": "미용·여행·숙박·음식·경비·청소직",
+    "600000": "영업·판매·운전·운송직",
+    "700000": "건설·채굴직",
+    "800000": "설치·정비·생산직",
+    "900000": "농림어업직",
+    "000000": "경영·사무·금융·보험직"
+  },
+  "rows": [
+    {
+      "region": "11",
+      "group": "300000",
+      "openings": 512,
+      "validOpenings": 550
+    },
+    {
+      "region": "11",
+      "group": "400000",
+      "openings": 171,
+      "validOpenings": 183
+    },
+    {
+      "region": "11",
+      "group": "600000",
+      "openings": 3279,
+      "validOpenings": 4299
+    },
+    {
+      "region": "11",
+      "group": "100000",
+      "openings": 486,
+      "validOpenings": 683
+    },
+    {
+      "region": "11",
+      "group": "500000",
+      "openings": 12800,
+      "validOpenings": 10793
+    },
+    {
+      "region": "11",
+      "group": "200000",
+      "openings": 1058,
+      "validOpenings": 1029
+    },
+    {
+      "region": "11",
+      "group": "000000",
+      "openings": 4598,
+      "validOpenings": 5783
+    },
+    {
+      "region": "11",
+      "group": "800000",
+      "openings": 3301,
+      "validOpenings": 4326
+    },
+    {
+      "region": "11",
+      "group": "700000",
+      "openings": 1010,
+      "validOpenings": 877
+    },
+    {
+      "region": "11",
+      "group": "900000",
+      "openings": 170,
+      "validOpenings": 150
+    },
+    {
+      "region": "26",
+      "group": "000000",
+      "openings": 1127,
+      "validOpenings": 1105
+    },
+    {
+      "region": "26",
+      "group": "500000",
+      "openings": 4849,
+      "validOpenings": 2596
+    },
+    {
+      "region": "26",
+      "group": "600000",
+      "openings": 782,
+      "validOpenings": 846
+    },
+    {
+      "region": "26",
+      "group": "300000",
+      "openings": 279,
+      "validOpenings": 275
+    },
+    {
+      "region": "26",
+      "group": "200000",
+      "openings": 735,
+      "validOpenings": 561
+    },
+    {
+      "region": "26",
+      "group": "800000",
+      "openings": 2367,
+      "validOpenings": 2560
+    },
+    {
+      "region": "26",
+      "group": "700000",
+      "openings": 353,
+      "validOpenings": 308
+    },
+    {
+      "region": "26",
+      "group": "400000",
+      "openings": 69,
+      "validOpenings": 76
+    },
+    {
+      "region": "26",
+      "group": "100000",
+      "openings": 345,
+      "validOpenings": 444
+    },
+    {
+      "region": "26",
+      "group": "900000",
+      "openings": 68,
+      "validOpenings": 52
+    },
+    {
+      "region": "27",
+      "group": "600000",
+      "openings": 336,
+      "validOpenings": 391
+    },
+    {
+      "region": "27",
+      "group": "200000",
+      "openings": 404,
+      "validOpenings": 331
+    },
+    {
+      "region": "27",
+      "group": "300000",
+      "openings": 148,
+      "validOpenings": 137
+    },
+    {
+      "region": "27",
+      "group": "500000",
+      "openings": 2908,
+      "validOpenings": 2073
+    },
+    {
+      "region": "27",
+      "group": "000000",
+      "openings": 574,
+      "validOpenings": 600
+    },
+    {
+      "region": "27",
+      "group": "800000",
+      "openings": 1456,
+      "validOpenings": 1600
+    },
+    {
+      "region": "27",
+      "group": "100000",
+      "openings": 216,
+      "validOpenings": 286
+    },
+    {
+      "region": "27",
+      "group": "400000",
+      "openings": 34,
+      "validOpenings": 50
+    },
+    {
+      "region": "27",
+      "group": "900000",
+      "openings": 19,
+      "validOpenings": 18
+    },
+    {
+      "region": "27",
+      "group": "700000",
+      "openings": 97,
+      "validOpenings": 154
+    },
+    {
+      "region": "28",
+      "group": "500000",
+      "openings": 3856,
+      "validOpenings": 2217
+    },
+    {
+      "region": "28",
+      "group": "000000",
+      "openings": 691,
+      "validOpenings": 676
+    },
+    {
+      "region": "28",
+      "group": "300000",
+      "openings": 256,
+      "validOpenings": 213
+    },
+    {
+      "region": "28",
+      "group": "800000",
+      "openings": 2051,
+      "validOpenings": 2205
+    },
+    {
+      "region": "28",
+      "group": "100000",
+      "openings": 163,
+      "validOpenings": 212
+    },
+    {
+      "region": "28",
+      "group": "600000",
+      "openings": 549,
+      "validOpenings": 509
+    },
+    {
+      "region": "28",
+      "group": "700000",
+      "openings": 93,
+      "validOpenings": 74
+    },
+    {
+      "region": "28",
+      "group": "400000",
+      "openings": 32,
+      "validOpenings": 26
+    },
+    {
+      "region": "28",
+      "group": "200000",
+      "openings": 302,
+      "validOpenings": 311
+    },
+    {
+      "region": "28",
+      "group": "900000",
+      "openings": 166,
+      "validOpenings": 122
+    },
+    {
+      "region": "30",
+      "group": "400000",
+      "openings": 20,
+      "validOpenings": 22
+    },
+    {
+      "region": "30",
+      "group": "200000",
+      "openings": 189,
+      "validOpenings": 234
+    },
+    {
+      "region": "30",
+      "group": "600000",
+      "openings": 161,
+      "validOpenings": 200
+    },
+    {
+      "region": "30",
+      "group": "000000",
+      "openings": 528,
+      "validOpenings": 395
+    },
+    {
+      "region": "30",
+      "group": "800000",
+      "openings": 369,
+      "validOpenings": 653
+    },
+    {
+      "region": "30",
+      "group": "300000",
+      "openings": 94,
+      "validOpenings": 91
+    },
+    {
+      "region": "30",
+      "group": "500000",
+      "openings": 690,
+      "validOpenings": 624
+    },
+    {
+      "region": "30",
+      "group": "100000",
+      "openings": 231,
+      "validOpenings": 220
+    },
+    {
+      "region": "30",
+      "group": "700000",
+      "openings": 154,
+      "validOpenings": 106
+    },
+    {
+      "region": "30",
+      "group": "900000",
+      "openings": 9,
+      "validOpenings": 9
+    },
+    {
+      "region": "31",
+      "group": "500000",
+      "openings": 922,
+      "validOpenings": 751
+    },
+    {
+      "region": "31",
+      "group": "200000",
+      "openings": 188,
+      "validOpenings": 178
+    },
+    {
+      "region": "31",
+      "group": "000000",
+      "openings": 355,
+      "validOpenings": 372
+    },
+    {
+      "region": "31",
+      "group": "300000",
+      "openings": 142,
+      "validOpenings": 150
+    },
+    {
+      "region": "31",
+      "group": "400000",
+      "openings": 46,
+      "validOpenings": 50
+    },
+    {
+      "region": "31",
+      "group": "600000",
+      "openings": 264,
+      "validOpenings": 328
+    },
+    {
+      "region": "31",
+      "group": "900000",
+      "openings": 22,
+      "validOpenings": 25
+    },
+    {
+      "region": "31",
+      "group": "800000",
+      "openings": 1569,
+      "validOpenings": 1960
+    },
+    {
+      "region": "31",
+      "group": "700000",
+      "openings": 139,
+      "validOpenings": 150
+    },
+    {
+      "region": "31",
+      "group": "100000",
+      "openings": 172,
+      "validOpenings": 235
+    },
+    {
+      "region": "36",
+      "group": "100000",
+      "openings": 59,
+      "validOpenings": 49
+    },
+    {
+      "region": "36",
+      "group": "800000",
+      "openings": 348,
+      "validOpenings": 369
+    },
+    {
+      "region": "36",
+      "group": "600000",
+      "openings": 35,
+      "validOpenings": 47
+    },
+    {
+      "region": "36",
+      "group": "400000",
+      "openings": 2,
+      "validOpenings": 7
+    },
+    {
+      "region": "36",
+      "group": "700000",
+      "openings": 13,
+      "validOpenings": 25
+    },
+    {
+      "region": "36",
+      "group": "500000",
+      "openings": 162,
+      "validOpenings": 175
+    },
+    {
+      "region": "36",
+      "group": "000000",
+      "openings": 233,
+      "validOpenings": 225
+    },
+    {
+      "region": "36",
+      "group": "200000",
+      "openings": 62,
+      "validOpenings": 59
+    },
+    {
+      "region": "36",
+      "group": "300000",
+      "openings": 34,
+      "validOpenings": 26
+    },
+    {
+      "region": "36",
+      "group": "900000",
+      "openings": 17,
+      "validOpenings": 7
+    },
+    {
+      "region": "41",
+      "group": "200000",
+      "openings": 1712,
+      "validOpenings": 1669
+    },
+    {
+      "region": "41",
+      "group": "600000",
+      "openings": 3315,
+      "validOpenings": 3687
+    },
+    {
+      "region": "41",
+      "group": "400000",
+      "openings": 212,
+      "validOpenings": 272
+    },
+    {
+      "region": "41",
+      "group": "500000",
+      "openings": 14968,
+      "validOpenings": 11267
+    },
+    {
+      "region": "41",
+      "group": "700000",
+      "openings": 1139,
+      "validOpenings": 1395
+    },
+    {
+      "region": "41",
+      "group": "800000",
+      "openings": 15485,
+      "validOpenings": 17996
+    },
+    {
+      "region": "41",
+      "group": "000000",
+      "openings": 4356,
+      "validOpenings": 4878
+    },
+    {
+      "region": "41",
+      "group": "100000",
+      "openings": 1412,
+      "validOpenings": 2048
+    },
+    {
+      "region": "41",
+      "group": "300000",
+      "openings": 1033,
+      "validOpenings": 1035
+    },
+    {
+      "region": "41",
+      "group": "900000",
+      "openings": 628,
+      "validOpenings": 589
+    },
+    {
+      "region": "43",
+      "group": "800000",
+      "openings": 3103,
+      "validOpenings": 3455
+    },
+    {
+      "region": "43",
+      "group": "600000",
+      "openings": 351,
+      "validOpenings": 472
+    },
+    {
+      "region": "43",
+      "group": "700000",
+      "openings": 183,
+      "validOpenings": 186
+    },
+    {
+      "region": "43",
+      "group": "000000",
+      "openings": 685,
+      "validOpenings": 806
+    },
+    {
+      "region": "43",
+      "group": "100000",
+      "openings": 214,
+      "validOpenings": 297
+    },
+    {
+      "region": "43",
+      "group": "900000",
+      "openings": 151,
+      "validOpenings": 132
+    },
+    {
+      "region": "43",
+      "group": "500000",
+      "openings": 793,
+      "validOpenings": 975
+    },
+    {
+      "region": "43",
+      "group": "400000",
+      "openings": 24,
+      "validOpenings": 35
+    },
+    {
+      "region": "43",
+      "group": "200000",
+      "openings": 278,
+      "validOpenings": 262
+    },
+    {
+      "region": "43",
+      "group": "300000",
+      "openings": 156,
+      "validOpenings": 216
+    },
+    {
+      "region": "44",
+      "group": "100000",
+      "openings": 319,
+      "validOpenings": 408
+    },
+    {
+      "region": "44",
+      "group": "500000",
+      "openings": 874,
+      "validOpenings": 1096
+    },
+    {
+      "region": "44",
+      "group": "700000",
+      "openings": 225,
+      "validOpenings": 195
+    },
+    {
+      "region": "44",
+      "group": "200000",
+      "openings": 252,
+      "validOpenings": 275
+    },
+    {
+      "region": "44",
+      "group": "800000",
+      "openings": 3410,
+      "validOpenings": 4166
+    },
+    {
+      "region": "44",
+      "group": "600000",
+      "openings": 442,
+      "validOpenings": 513
+    },
+    {
+      "region": "44",
+      "group": "000000",
+      "openings": 834,
+      "validOpenings": 1019
+    },
+    {
+      "region": "44",
+      "group": "300000",
+      "openings": 208,
+      "validOpenings": 272
+    },
+    {
+      "region": "44",
+      "group": "400000",
+      "openings": 19,
+      "validOpenings": 28
+    },
+    {
+      "region": "44",
+      "group": "900000",
+      "openings": 642,
+      "validOpenings": 602
+    },
+    {
+      "region": "47",
+      "group": "500000",
+      "openings": 1872,
+      "validOpenings": 1604
+    },
+    {
+      "region": "47",
+      "group": "600000",
+      "openings": 624,
+      "validOpenings": 678
+    },
+    {
+      "region": "47",
+      "group": "100000",
+      "openings": 575,
+      "validOpenings": 601
+    },
+    {
+      "region": "47",
+      "group": "300000",
+      "openings": 459,
+      "validOpenings": 462
+    },
+    {
+      "region": "47",
+      "group": "000000",
+      "openings": 1139,
+      "validOpenings": 1301
+    },
+    {
+      "region": "47",
+      "group": "200000",
+      "openings": 575,
+      "validOpenings": 583
+    },
+    {
+      "region": "47",
+      "group": "700000",
+      "openings": 191,
+      "validOpenings": 196
+    },
+    {
+      "region": "47",
+      "group": "800000",
+      "openings": 3582,
+      "validOpenings": 3871
+    },
+    {
+      "region": "47",
+      "group": "400000",
+      "openings": 58,
+      "validOpenings": 74
+    },
+    {
+      "region": "47",
+      "group": "900000",
+      "openings": 247,
+      "validOpenings": 223
+    },
+    {
+      "region": "48",
+      "group": "100000",
+      "openings": 554,
+      "validOpenings": 754
+    },
+    {
+      "region": "48",
+      "group": "800000",
+      "openings": 5429,
+      "validOpenings": 6051
+    },
+    {
+      "region": "48",
+      "group": "500000",
+      "openings": 2643,
+      "validOpenings": 2070
+    },
+    {
+      "region": "48",
+      "group": "200000",
+      "openings": 488,
+      "validOpenings": 464
+    },
+    {
+      "region": "48",
+      "group": "000000",
+      "openings": 1763,
+      "validOpenings": 1705
+    },
+    {
+      "region": "48",
+      "group": "600000",
+      "openings": 930,
+      "validOpenings": 974
+    },
+    {
+      "region": "48",
+      "group": "400000",
+      "openings": 49,
+      "validOpenings": 75
+    },
+    {
+      "region": "48",
+      "group": "300000",
+      "openings": 568,
+      "validOpenings": 612
+    },
+    {
+      "region": "48",
+      "group": "700000",
+      "openings": 290,
+      "validOpenings": 385
+    },
+    {
+      "region": "48",
+      "group": "900000",
+      "openings": 325,
+      "validOpenings": 304
+    },
+    {
+      "region": "50",
+      "group": "800000",
+      "openings": 102,
+      "validOpenings": 146
+    },
+    {
+      "region": "50",
+      "group": "300000",
+      "openings": 62,
+      "validOpenings": 65
+    },
+    {
+      "region": "50",
+      "group": "400000",
+      "openings": 16,
+      "validOpenings": 18
+    },
+    {
+      "region": "50",
+      "group": "900000",
+      "openings": 73,
+      "validOpenings": 78
+    },
+    {
+      "region": "50",
+      "group": "700000",
+      "openings": 13,
+      "validOpenings": 34
+    },
+    {
+      "region": "50",
+      "group": "600000",
+      "openings": 100,
+      "validOpenings": 103
+    },
+    {
+      "region": "50",
+      "group": "500000",
+      "openings": 243,
+      "validOpenings": 360
+    },
+    {
+      "region": "50",
+      "group": "000000",
+      "openings": 178,
+      "validOpenings": 241
+    },
+    {
+      "region": "50",
+      "group": "100000",
+      "openings": 78,
+      "validOpenings": 112
+    },
+    {
+      "region": "50",
+      "group": "200000",
+      "openings": 76,
+      "validOpenings": 70
+    },
+    {
+      "region": "51",
+      "group": "400000",
+      "openings": 29,
+      "validOpenings": 38
+    },
+    {
+      "region": "51",
+      "group": "000000",
+      "openings": 579,
+      "validOpenings": 572
+    },
+    {
+      "region": "51",
+      "group": "200000",
+      "openings": 396,
+      "validOpenings": 375
+    },
+    {
+      "region": "51",
+      "group": "600000",
+      "openings": 266,
+      "validOpenings": 292
+    },
+    {
+      "region": "51",
+      "group": "800000",
+      "openings": 968,
+      "validOpenings": 1089
+    },
+    {
+      "region": "51",
+      "group": "700000",
+      "openings": 175,
+      "validOpenings": 181
+    },
+    {
+      "region": "51",
+      "group": "300000",
+      "openings": 182,
+      "validOpenings": 184
+    },
+    {
+      "region": "51",
+      "group": "100000",
+      "openings": 186,
+      "validOpenings": 273
+    },
+    {
+      "region": "51",
+      "group": "500000",
+      "openings": 971,
+      "validOpenings": 958
+    },
+    {
+      "region": "51",
+      "group": "900000",
+      "openings": 141,
+      "validOpenings": 125
+    },
+    {
+      "region": "52",
+      "group": "000000",
+      "openings": 794,
+      "validOpenings": 829
+    },
+    {
+      "region": "52",
+      "group": "500000",
+      "openings": 1664,
+      "validOpenings": 1595
+    },
+    {
+      "region": "52",
+      "group": "800000",
+      "openings": 1841,
+      "validOpenings": 2240
+    },
+    {
+      "region": "52",
+      "group": "600000",
+      "openings": 628,
+      "validOpenings": 791
+    },
+    {
+      "region": "52",
+      "group": "700000",
+      "openings": 156,
+      "validOpenings": 167
+    },
+    {
+      "region": "52",
+      "group": "100000",
+      "openings": 241,
+      "validOpenings": 348
+    },
+    {
+      "region": "52",
+      "group": "400000",
+      "openings": 47,
+      "validOpenings": 51
+    },
+    {
+      "region": "52",
+      "group": "300000",
+      "openings": 462,
+      "validOpenings": 441
+    },
+    {
+      "region": "52",
+      "group": "200000",
+      "openings": 694,
+      "validOpenings": 596
+    },
+    {
+      "region": "52",
+      "group": "900000",
+      "openings": 376,
+      "validOpenings": 331
+    }
+  ]
+}
